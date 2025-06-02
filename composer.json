@@ -1,0 +1,21 @@
+{
+    "name": "merlin/json-fix",
+    "description": "Fix Json UTF8 Error",
+    "require": {
+        "php": "~7.4.0||~8.2.0"      
+    },
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Merlin\\JsonFix\\": ""
+        }
+    },
+    "version": "1.0.0"
+}
